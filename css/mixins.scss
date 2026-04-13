@@ -1,0 +1,65 @@
+//variables for breakpoints
+
+$bp-tablet: 768px;
+$bp-tablet-horizontal: 1024px;
+$bp-desktop: 1200px;
+$bp-desktop-xl: 1440px;
+
+//breakpoints mixin
+
+@mixin breakpoint($bp) {
+  @if $bp == tablet {
+    @media (min-width: $bp-tablet) {
+      @content;
+    }
+  }
+
+  @if $bp == tablethorizontal {
+    @media (min-width: $bp-tablet-horizontal) {
+      @content;
+    }
+  }
+
+  @if $bp == desktop {
+    @media (min-width: $bp-desktop) {
+      @content;
+    }
+  }
+
+  @if $bp == desktopxl {
+    @media (min-width: $bp-desktop-xl) {
+      @content;
+    }
+  }
+}
+
+//layout mixins
+
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin button($b-color: black, $f-color: white) {
+  color: $f-color;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  transition: .4s;
+  font-weight: 500; 
+
+  &:hover {
+      color: $b-color;
+  }
+  
+  &::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: $b-color;
+    margin-top: 10px;
+  }
+}
