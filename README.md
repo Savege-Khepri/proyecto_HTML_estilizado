@@ -33,7 +33,7 @@ Este proyecto se centra en crear un sitio web responsive para una galería de ar
 
 ## Cómo Usar 🛠️
 
-1. Clona este repositorio: `git clone [https://github.com/Savege-Khepri/proyecto_HTML_estilizado/blob/main/Home-de-Conquer-Blocks-Academy.png](https://github.com/Savege-Khepri/proyecto_HTML_estilizado.git)`
+1. Clona este repositorio: `git clone https://github.com/Savege-Khepri/proyecto_HTML_estilizado.git`
 2. Abre el archivo `index.html` en tu navegador.
 
 ¡Y eso es todo! Ahora puedes explorar la galería de arte moderno en diferentes dispositivos.
