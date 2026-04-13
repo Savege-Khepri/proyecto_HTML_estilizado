@@ -16,7 +16,7 @@ Este proyecto se centra en crear un sitio web responsive para una galería de ar
 ---
 
 <div align="center">
-  <img src="Home-de-Conquer-Blocks-Academy.png" alt="vista previa" width="1000px" height="500px"/>
+  <img src="Home-de-Conquer-Blocks-Academy.png" alt="vista previa" width="1000px" height="auto"/>
 </div>
 <br>
 <p align="center">
